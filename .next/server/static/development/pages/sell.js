@@ -107,11 +107,13 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/ticothep/my-projects/tico-store/front-end-tico-store/pages/sell.js";
 
 
+// Again, no need to have the "import React from 'react';"
+// import statement because Next.js takes care of this for us
 var Sell = function Sell(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 1
+      lineNumber: 4
     },
     __self: this
   }, "Sell!");
