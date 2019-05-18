@@ -63,7 +63,7 @@ var Home = function Home(props) {
       lineNumber: 6
     },
     __self: this
-  }, "Hello! Welcome to Tico's Store!"));
+  }, "Welcome to The Tico Store!"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);

@@ -3,7 +3,7 @@
 
 const Home = props => (
   <div>
-    <h1>Hello! Welcome to Tico's Store!</h1>
+    <h1>Welcome to The Tico Store!</h1>
   </div>
 );
 
