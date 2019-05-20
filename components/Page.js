@@ -7,6 +7,9 @@ import styled from "styled-components";
 const MyButton = styled.button`
   background: red;
   font-size: 50px;
+  span {
+    font-size: 150px;
+  }
 `;
 
 const BigPoop = styled.span`
@@ -21,7 +24,7 @@ class Page extends Component {
         <Header />
         <MyButton>
           Click Me
-          <BigPoop>💩</BigPoop>
+          <span>💩</span>
         </MyButton>
         {this.props.children}
       </div>

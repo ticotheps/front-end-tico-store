@@ -322,7 +322,7 @@ var _jsxFileName = "/Users/ticothep/my-projects/tico-store/front-end-tico-store/
 var MyButton = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.button.withConfig({
   displayName: "Page__MyButton",
   componentId: "sc-1adbn4v-0"
-})(["background:red;font-size:50px;"]);
+})(["background:red;font-size:50px;span{font-size:150px;}"]);
 var BigPoop = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.span.withConfig({
   displayName: "Page__BigPoop",
   componentId: "sc-1adbn4v-1"
@@ -345,31 +345,31 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 22
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 23
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 24
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(MyButton, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 25
         },
         __self: this
-      }, "Click Me", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(BigPoop, {
+      }, "Click Me", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 27
         },
         __self: this
       }, "\uD83D\uDCA9")), this.props.children);
