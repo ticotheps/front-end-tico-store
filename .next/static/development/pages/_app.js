@@ -228,7 +228,9 @@ var _jsxFileName = "/Users/ticothep/my-projects/tico-store/front-end-tico-store/
 var MyButton = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].button.withConfig({
   displayName: "Page__MyButton",
   componentId: "sc-1adbn4v-0"
-})(["background:red;font-size:50px;.poop{font-size:125px;}"]);
+})(["background:red;font-size:", ";.poop{font-size:100px;}"], function (props) {
+  return props.huge ? "100px" : "50px";
+});
 
 var Page =
 /*#__PURE__*/
@@ -263,6 +265,7 @@ function (_Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(MyButton, {
+        huge: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21

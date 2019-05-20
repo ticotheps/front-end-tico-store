@@ -6,9 +6,9 @@ import styled from "styled-components";
 // "tag template literal"
 const MyButton = styled.button`
   background: red;
-  font-size: 50px;
+  font-size: ${props => (props.huge ? "100px" : "50px")};
   .poop {
-    font-size: 125px;
+    font-size: 100px;
   }
 `;
 
@@ -18,7 +18,7 @@ class Page extends Component {
       <div>
         <Meta />
         <Header />
-        <MyButton>
+        <MyButton huge>
           Click Me
           <span className="poop">💩</span>
         </MyButton>
