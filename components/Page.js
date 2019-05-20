@@ -6,7 +6,9 @@ import styled, { ThemeProvider, injectGlobal } from "styled-components";
 const theme = {
   red: "#FF0000",
   black: "#393939",
+  turquoise: "#00f1df",
   grey: "#3A3A3A",
+  slategrey: "#a5a5a5",
   lightgrey: "#E1E1E1",
   offWhite: "#EDEDED",
   maxWidth: "1000px",
