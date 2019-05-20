@@ -8,8 +8,8 @@ const theme = {
   black: "#393939",
   turquoise: "#00f1df",
   grey: "#3A3A3A",
-  slategrey: "#a5a5a5",
-  lightgrey: "#E1E1E1",
+  slateGrey: "#a5a5a5",
+  lightGrey: "#E1E1E1",
   offWhite: "#EDEDED",
   maxWidth: "1000px",
   bs: "0 12px 24px 0 rgba(0, 0, 0, 0.09)"
