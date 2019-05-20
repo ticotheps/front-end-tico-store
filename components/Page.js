@@ -6,6 +6,10 @@ import styled from "styled-components";
 // "tag template literal"
 const MyButton = styled.button`
   background: red;
+  font-size: 50px;
+`;
+
+const BigPoop = styled.span`
   font-size: 100px;
 `;
 
@@ -17,7 +21,7 @@ class Page extends Component {
         <Header />
         <MyButton>
           Click Me
-          <span>💩</span>
+          <BigPoop>💩</BigPoop>
         </MyButton>
         {this.props.children}
       </div>
