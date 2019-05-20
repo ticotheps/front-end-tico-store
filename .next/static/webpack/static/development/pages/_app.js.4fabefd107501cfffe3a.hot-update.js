@@ -18,6 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
 /* harmony import */ var _Meta__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Meta */ "./components/Meta.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
 
 
@@ -27,6 +28,11 @@ var _jsxFileName = "/Users/ticothep/my-projects/tico-store/front-end-tico-store/
 
 
 
+
+var MyButton = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].button.withConfig({
+  displayName: "Page__MyButton",
+  componentId: "sc-1adbn4v-0"
+})([""]); // <- "tag template literal"
 
 var Page =
 /*#__PURE__*/
@@ -45,22 +51,28 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 11
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 12
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 13
         },
         __self: this
-      }), this.props.children);
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "Click Me"), this.props.children);
     }
   }]);
 
@@ -72,4 +84,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.bb7c1ad032127156b84e.hot-update.js.map
+//# sourceMappingURL=_app.js.4fabefd107501cfffe3a.hot-update.js.map
