@@ -15,7 +15,10 @@ class Page extends Component {
       <div>
         <Meta />
         <Header />
-        <MyButton>Click Me</MyButton>
+        <MyButton>
+          Click Me
+          \u{1F693}
+        </MyButton>
         {this.props.children}
       </div>
     );

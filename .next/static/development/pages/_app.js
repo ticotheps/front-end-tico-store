@@ -268,7 +268,13 @@ function (_Component) {
           lineNumber: 18
         },
         __self: this
-      }, "Click Me"), this.props.children);
+      }, "Click Me", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, "poop")), this.props.children);
     }
   }]);
 
