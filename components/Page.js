@@ -17,7 +17,7 @@ class Page extends Component {
         <Header />
         <MyButton>
           Click Me
-          \u{1F693}
+          <span>💩</span>
         </MyButton>
         {this.props.children}
       </div>

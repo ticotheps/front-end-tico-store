@@ -70,7 +70,7 @@ var Home = function Home(props) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fticothep%2Fmy-projects%2Ftico-store%2Ffront-end-tico-store%2Fpages%2Findex.js ***!
   \*********************************************************************************************************************************************************/
@@ -93,5 +93,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

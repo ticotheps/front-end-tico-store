@@ -368,7 +368,7 @@ function (_Component) {
           lineNumber: 20
         },
         __self: this
-      }, "poop")), this.props.children);
+      }, "\uD83D\uDCA9")), this.props.children);
     }
   }]);
 
