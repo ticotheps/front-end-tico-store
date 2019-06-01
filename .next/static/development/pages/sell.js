@@ -70,7 +70,7 @@ var Sell = function Sell(props) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fsell&absolutePagePath=%2FUsers%2Fticothep%2Fmy-projects%2Ftico-store%2Ffront-end-tico-store%2Fpages%2Fsell.js ***!
   \************************************************************************************************************************************************************/
@@ -93,5 +93,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=sell.js.map
