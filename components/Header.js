@@ -1,4 +1,4 @@
-import styled, { ThemeProvider, injectGlobal } from "styled-components";
+import styled from "styled-components";
 import Nav from "./Nav";
 import Link from "next/link";
 
