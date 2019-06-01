@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/sell.js":
-/*!***********************!*\
-  !*** ./pages/sell.js ***!
-  \***********************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -104,12 +104,12 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/ticothep/my-projects/tico-store/front-end-tico-store/pages/sell.js";
+var _jsxFileName = "/Users/ticothep/my-projects/tico-store/front-end-tico-store/pages/index.js";
 
 
 // no need to have the "import React from 'react';" import statement
 // because Next.js takes care of this for us
-var Sell = function Sell(props) {
+var Home = function Home(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -122,21 +122,21 @@ var Sell = function Sell(props) {
       lineNumber: 6
     },
     __self: this
-  }, "Sell something!"));
+  }, "Welcome to The Tico Store!"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Sell);
+/* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
 /***/ 3:
-/*!*****************************!*\
-  !*** multi ./pages/sell.js ***!
-  \*****************************/
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/ticothep/my-projects/tico-store/front-end-tico-store/pages/sell.js */"./pages/sell.js");
+module.exports = __webpack_require__(/*! /Users/ticothep/my-projects/tico-store/front-end-tico-store/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -153,4 +153,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=sell.js.map
+//# sourceMappingURL=index.js.map
