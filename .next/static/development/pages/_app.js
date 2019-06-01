@@ -210,7 +210,7 @@ var Nav = function Nav() {
       lineNumber: 7
     },
     __self: this
-  }, "items")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Items")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/sell",
     __source: {
       fileName: _jsxFileName,
@@ -223,7 +223,7 @@ var Nav = function Nav() {
       lineNumber: 10
     },
     __self: this
-  }, "sell")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Sell")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/signup",
     __source: {
       fileName: _jsxFileName,
@@ -236,7 +236,7 @@ var Nav = function Nav() {
       lineNumber: 13
     },
     __self: this
-  }, "signup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Signup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/orders",
     __source: {
       fileName: _jsxFileName,
@@ -249,7 +249,7 @@ var Nav = function Nav() {
       lineNumber: 16
     },
     __self: this
-  }, "orders")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Orders")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/me",
     __source: {
       fileName: _jsxFileName,
@@ -262,7 +262,7 @@ var Nav = function Nav() {
       lineNumber: 19
     },
     __self: this
-  }, "me")));
+  }, "Account")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
